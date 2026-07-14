@@ -376,6 +376,7 @@ class MacroHub(tk.Tk):
                 cmd, cwd=BASE_DIR,
                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                 text=True, bufsize=1, creationflags=creationflags,
+                encoding="utf-8", errors="replace",
             )
         except Exception as e:
             messagebox.showerror("Failed to launch", str(e))
