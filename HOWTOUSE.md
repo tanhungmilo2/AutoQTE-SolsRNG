@@ -39,7 +39,7 @@ This diagnostic script renders the captured screenshot alongside the reference t
 
 ## Step 5 — System Execution
 ```bash
-python main.py
+python macro_hub.py
 ```
 Press the `E` key (default hotkey) to trigger the recognition sequence.
 
@@ -110,7 +110,7 @@ còn lệch/sai trước khi bấm phím thật trong lúc chơi.
 
 ## Bước 5 — Chạy tool
 ```
-python main.py
+python macro_hub.py
 ```
 Bấm phím `E` (hotkey mặc định) để trigger nhận diện.
 
